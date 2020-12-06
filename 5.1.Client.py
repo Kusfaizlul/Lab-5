@@ -2,6 +2,7 @@ import socket
 
 s=socket.socket()
 
+#Port 
 port = 8888
 
 s.connect (("192.168.14.10",port))
